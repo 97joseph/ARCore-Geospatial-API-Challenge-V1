@@ -26,6 +26,10 @@ information.
 
 Build: The build is the package that contains the final game compiled and playable
 on the computer. For example, on a standalone PC game, the build is the .exe
+
+Game Sample Output
+
+https://user-images.githubusercontent.com/92072920/206423156-810401bb-c3f0-4ab8-bc59-98a2ae3a2f40.mp4
 file you double-click on to open the game. A build for Android consists in a
 “.apk” package that can be installed on Android devices. In this document, we
 opposed the “built version” to the “editor version”, which corresponds to the
