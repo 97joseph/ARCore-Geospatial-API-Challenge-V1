@@ -13,7 +13,8 @@ Be sure to share your creations on Twitter and tag us using the hashtag #Geospat
 We’re excited to see what you create when the world is your canvas! 
 
 #PROJECT DESIGN 
-Glossary and abbreviations
+ Desing Parts
+ 
 API: Application Programming Interface. The API is a set of functions that aim to be
 an intermediary between two programs. The first program offers services to the
 second program through the API. In our case, the game client makes requests to
@@ -21,16 +22,21 @@ the server to get and post data. The API represents this set of requests, it is 
 entry point of the client to get data from the server. The purpose of this
 architecture is the client does not need to know how the server works to get the
 information.
+
+
 Build: The build is the package that contains the final game compiled and playable
 on the computer. For example, on a standalone PC game, the build is the .exe
 file you double-click on to open the game. A build for Android consists in a
 “.apk” package that can be installed on Android devices. In this document, we
 opposed the “built version” to the “editor version”, which corresponds to the
 whole unity project developers are working on.
+
 HUD: Head-up display. The HUD is the group of information of the interface displayed
 at the screen borders during the game (its position is different from one game to
 another). The HUD often contains the main information about the player status.
 In EnerGAware, the HUD shows the player money, energy, happiness points, etc.
+
+
 Mesh: A mesh is just a 3D model, regardless of any texture, material or script. It is made
 with a 3D modeller tool (Maya, 3Ds Max) and composed of a number of faces.
 The most faces a mesh has the most graphic instructions requires to display it. This
